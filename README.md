@@ -39,7 +39,7 @@ You respond:
 Upon completing the challenge you will see a message
 notifying you of your success.
 
-Once you have solved this problem, please email jmcneely@sigovs.com with your solution C file and an explanation of what it does.
+Once you have solved this problem, please email @sigovs.com with your solution C file and an explanation of what it does.
 This is not meant to be a challenging problem, but there are some gotchas. Pay attention to your buffers :)
 
 Please let us know in your explanation how you built your program.
