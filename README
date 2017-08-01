@@ -1,0 +1,45 @@
+*****************************
+* Raytheon Coding Challenge *
+* Steve Schmidt             *
+*****************************
+
+
+*****************************
+* Includes                  *
+*****************************
+README
+sockreader.c
+sockreader.h
+makefile
+
+*****************************
+* Build / Run Instructions  *
+*****************************
+
+/* all ocding done on mac os, compiled with gcc 4.7 */
+
+$ make
+*** OR ***
+$ gcc sockreader.c sockreader.h -o sockreader
+
+$ ./sockreader
+
+/* output will simply be the success line or any error messages */
+good job! you solved them all!
+*** ***
+nope!
+
+*****************************
+* Design Comments           *
+*****************************
+
+/* Algorithm was straightforward (although more than once I made it super overly complicated!) */
+
+1. Get a socket connection
+2. Read in (dynamic memory allocation/reallocation) first line of 'numbers' (char form) from socket
+3. Read in (dynamic memory allocation/reallocation) second line of chars from socket
+4. Use (3) to find out whether to use Max, Min or Sum calculations
+5. Parse the 'numbers' buffer to find the answer to (4)
+6. Write answer back to socket (200 ish times)
+7. Shutdown and go to gym
+
